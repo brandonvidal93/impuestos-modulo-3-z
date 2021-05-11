@@ -1,0 +1,129 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.interactivePath {
+  height: 375px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      width: 1.7em;
+      height: 1.7em;
+      background-color: $color3;
+      border-radius: 50%;
+      color: $color4;
+      font-size: 1.3em;
+      transition: all .3s;
+
+      &:hover {
+        animation: pulse2 2s infinite;
+      }
+    }
+
+    .visited {
+      background-color: $color2;
+      &:hover {
+        animation: pulse 2s infinite;
+      }
+    }
+  }
+
+  .itemGlobe {
+    position: absolute;
+    background-color: $color4;
+    box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+    padding: 0.5em;
+
+    .buttonClose {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0);
+      .iconButton {
+        color: red;
+        font-size: 2.3em;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #cf0000;
+        }
+      }
+    }
+  }
+
+  .border-down {
+    border-bottom: 5px solid $color2;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-top: 12px solid #FF6A3D;
+      border-right: 12px solid transparent;
+      position: absolute;
+      bottom: -16px;
+      left: 45%;
+    }
+  }
+
+  .border-up {
+    border-top: 5px solid $color2;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-bottom: 12px solid #FF6A3D;
+      border-right: 12px solid transparent;
+      position: absolute;
+      top: -16px;
+      left: 45%;
+    }
+  }
+
+  .globeBg {
+    position: absolute;
+    background-color: #D9DADC;
+    padding: 0.5em;
+
+    p {
+      color: #D9DADC;
+      user-select: none;
+    }
+  }
+
+  .border-down-bg {
+    border-bottom: 5px solid #707070;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-top: 12px solid #707070;
+      border-right: 12px solid transparent;
+      position: absolute;
+      bottom: -16px;
+      left: 45%;
+    }
+  }
+
+  .border-up-bg {
+    border-top: 5px solid #707070;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-bottom: 12px solid #707070;
+      border-right: 12px solid transparent;
+      position: absolute;
+      top: -16px;
+      left: 45%;
+    }
+  }
+}

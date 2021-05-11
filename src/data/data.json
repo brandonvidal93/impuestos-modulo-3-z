@@ -1,0 +1,1567 @@
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 7,
+    "title": "Impuestos",
+    "subTitle": "nacionales y territoriales",
+    "module": "Módulo 3",
+    "courseName": "Procedimiento tributario y sanciones",
+    "logoCourse": "img/logo.png",
+    "buttonStart": "Iniciar",
+    "modal": {
+      "type": "videoModal",
+      "title": "¡Ten en cuenta!",
+      "text": "Antes de iniciar, te invitamos hacer el recorrido de navegación mediante el siguiente instructivo.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "footer": {
+      "label": "Impuesto corporativo"
+    }
+  },
+
+  "page1": {
+    "type": "menuPage",
+    "title": "¡Bienvenido(a)!",
+    "text": "Los temas que visualizarás en este módulo son los siguientes:",
+    "Units": [
+      {
+        "unit": 1,
+        "title": "Procedimiento tributario y sanciones",
+        "text": "El procedimiento tributario es el conjunto de normas que regulan la relación entre el...",
+        "imgBg": "img/units/unit-1.png",
+        "goTo": 2,
+        "fullVisited": false,
+        "position": 125
+      },
+      {
+        "unit": 2,
+        "title": "Registro Único Tributario (RUT)",
+        "text": "Es el mecanismo para identificar, ubicar y clasificar a las personas de obligaciones...",
+        "imgBg": "img/units/unit-2.png",
+        "goTo": 4,
+        "fullVisited": false,
+        "position": -418
+      },
+      {
+        "unit": 3,
+        "title": "Régimen sancionatorio",
+        "text": "Las infracciones y sanciones que una persona natural o jurídica puede llegar a tener se clasifican...",
+        "imgBg": "img/units/unit-3.png",
+        "goTo": 6,
+        "fullVisited": false,
+        "position": -963
+      },
+      {
+        "unit": 4,
+        "title": "Corrección de las declaraciones tributarias",
+        "text": "Los contribuyentes pueden corregir las declaraciones que...",
+        "imgBg": "img/units/unit-4.png",
+        "goTo": 7,
+        "fullVisited": false,
+        "position": -1505
+      },
+      {
+        "unit": 5,
+        "title": "Sanción por extemporaneidad",
+        "text": "Esta sanción hace referencia a la no presentación oportuna de una declaración tributaria, es decir, si...",
+        "imgBg": "img/units/unit-5.png",
+        "goTo": 12,
+        "fullVisited": false,
+        "position": -2060
+      },
+      {
+        "unit": 6,
+        "title": "Interesés de mora",
+        "text": "El interés de mora conforma la tasa máxima de usura, su liquidación es mensual y se aplica...",
+        "imgBg": "img/units/unit-6.png",
+        "goTo": 14,
+        "fullVisited": false,
+        "position": -2605
+      },
+      {
+        "unit": 7,
+        "title": "Sanción por inexactitud",
+        "text": "Se considera inexactitud, el uso de una conducta inapropiada por parte del contribuyente para disminuir la base de...",
+        "imgBg": "img/units/unit-7.png",
+        "goTo": 16,
+        "fullVisited": false,
+        "position": -3160
+      },
+      {
+        "unit": 8,
+        "title": "Impuestos penalizables",
+        "text": "Es importante resaltar en este aspecto porque serán sancionados los contribuyentes que no realicen...",
+        "imgBg": "img/units/unit-8.png",
+        "goTo": 17,
+        "fullVisited": false,
+        "position": -3712
+      }
+    ],
+    "instruction": {
+      "text": "Haz clic en los círculos para navergar en los temas y ver su contenido",
+      "posY": 450,
+      "posX": 40,
+      "size": 310
+    }
+  },
+
+  "page2": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit1",
+    "title": "1. ¿Qué es el procedimiento tributario?",
+    "text": "",
+    "multimedia": {
+      "audio": {
+        "src": "audio/procedimiento-tributario.mp3",
+        "autoPlay": true
+      },
+      "subtitles": {
+        "3": "El procedimiento tributario es el conjunto de normas que regulan",
+        "6": "la relación entre el sujeto activo y el sujeto pasivo",
+        "9": "en el desarrollo de las actuaciones fiscales."
+      },
+      "movePage":false,
+      "moveTime": 0,
+      "layers": [
+        [
+          {
+            "label": "Procesamiento tributario",
+            "labelSide": "bottom",
+            "icon": "img/2/i1.png",
+            "time": 2,
+            "size": 220,
+            "position": {
+              "xPosition": 100,
+              "yPosition": 130
+            }
+          },
+          {
+            "icon": "img/2/l1.png",
+            "time": 3,
+            "size": 105,
+            "position": {
+              "xPosition": 109,
+              "yPosition": -24
+            }
+          },
+
+          {
+            "label": "conjunto de normas",
+            "labelSide": "bottom",
+            "icon": "img/2/i2.png",
+            "time": 4,
+            "size": 125,
+            "position": {
+              "xPosition": 151,
+              "yPosition": -4
+            }
+          },
+          {
+            "icon": "img/2/l3.png",
+            "time": 5,
+            "size": 200,
+            "position": {
+              "xPosition": 210,
+              "yPosition": -46
+            }
+          },
+          {
+            "label": "regulan la relación entre",
+            "labelSide": "bottom",
+            "icon": "img/2/i3.png",
+            "time": 6,
+            "size": 180,
+            "position": {
+              "xPosition": 320,
+              "yPosition": 0
+            }
+          },
+          {
+            "icon": "img/2/l4.png",
+            "time": 7,
+            "size": 240,
+            "position": {
+              "xPosition": 407,
+              "yPosition": -48
+            }
+          },
+          {
+            "label": "sujeto activo y el sujeto pasivo",
+            "labelSide": "bottom",
+            "icon": "img/2/i4.png",
+            "time": 8,
+            "size": 150,
+            "position": {
+              "xPosition": 532,
+              "yPosition": -20
+            }
+          },
+          {
+            "icon": "img/2/l5.png",
+            "time": 9,
+            "size": 160,
+            "position": {
+              "xPosition": 645,
+              "yPosition": -15
+            }
+          },
+          {
+            "label": "desarrollo de las actuaciones fiscales.",
+            "labelSide": "bottom",
+            "icon": "img/2/i5.png",
+            "time": 10,
+            "size": 320,
+            "position": {
+              "xPosition": 497,
+              "yPosition": 152
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "page3": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "1. ¿Qué es el procedimiento tributario?",
+    "text": "De acuerdo con la definición anterior, queda solamente una duda: ¿qué son las actuaciones fiscales?",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en cada círculo siguiendo el orden y la secuencia de las flechas.",
+      "posY": 490,
+      "posX": 20,
+      "size": 310
+    },
+    "multimediaCircular": {
+      "buttons": [
+        {
+          "top": 168,
+          "left": 290,
+          "orientation": "right"
+        },
+        {
+          "top": 3,
+          "left": 480,
+          "orientation": "right"
+        },
+        {
+          "top": 168,
+          "left": 670,
+          "orientation": "right"
+        },
+        {
+          "top": 176,
+          "left": 842,
+          "orientation": "down"
+        },
+        {
+          "top": 326,
+          "left": 660,
+          "orientation": "up"
+        },
+        {
+          "top": 337,
+          "left": 322,
+          "orientation": "left"
+        }
+      ],
+      "globes": [
+        {
+          "itemInfo": {
+            "text": "Las actuaciones fiscales son los actos de carácter formal y sustancial (procedimental) entre el ciudadano y el Estado.",
+            "posGlobe": {
+              "posY": 68,
+              "posX": 50,
+              "size": 220
+            },
+            "posTriang": "down"
+          }
+        },
+        {
+          "itemInfo": {
+            "text": "¿Qué se considera como actuaciones formales?",
+            "posGlobe": {
+              "posY": 80,
+              "posX": 292,
+              "size": 190
+            },
+            "posTriang": "up"
+          }
+        },
+        {
+          "itemInfo": {
+            "text": "Es el acto que implica el nacimiento de la relación voluntaria entre la DIAN y el contribuyente...",
+            "posGlobe": {
+              "posY": 48,
+              "posX": 525,
+              "size": 190
+            },
+            "posTriang": "down"
+          }
+        },
+        {
+          "itemInfo": {
+            "text": "La actuación formal, implica la inscripción en el RUT (Registro Único Tributario), este es el instrumento de identificación, ubicación y clasificación que tiene la DIAN de un contribuyente.",
+            "posGlobe": {
+              "posY": 12,
+              "posX": 753,
+              "size": 210
+            },
+            "posTriang": "down"
+          }
+        },
+        {
+          "itemInfo": {
+            "text": "La inscripción en el RUT es una decisión voluntaria y responsable de los contribuyentes residentes o no para efectos fiscales.",
+            "posGlobe": {
+              "posY": 228,
+              "posX": 740,
+              "size": 240
+            },
+            "posTriang": "down"
+          }
+        },
+        {
+          "itemInfo": {
+            "text": "En caso de no inscripción voluntaria por parte del contribuyente...",
+            "posGlobe": {
+              "posY": 237,
+              "posX": 375,
+              "size": 250
+            },
+            "posTriang": "down"
+          }
+        },
+        {
+          "itemInfo": {
+            "text": "...la DIAN podrá hacer una inscripción de oficio con la información presentada por los contribuyentes en la información exógena.",
+            "posGlobe": {
+              "posY": 216,
+              "posX": 58,
+              "size": 230
+            },
+            "posTriang": "down"
+          }
+        }
+      ]
+    }
+  },
+
+  "page4": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit2",
+    "title": "2. ¿Qué se entiende por Registro Único</br> Tributario (RUT)?",
+    "text": "Es el mecanismo para identificar, ubicar y clasificar a las personas de obligaciones controladas y administradas por la DIAN en materia cambiaria, aduanera y tributaria.",
+    "text2": "",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en cada círculo siguiendo el orden.",
+      "posY": 460,
+      "posX": 20,
+      "size": 310
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "Identificación",
+          "numBtn": 1,
+          "img": "img/4/i1.png"
+        },
+        {
+          "text": "Ubicación",
+          "numBtn": 2,
+          "img": "img/4/i2.png"
+        },
+        {
+          "text": "Clasificación",
+          "numBtn": 3,
+          "img": "img/4/i3.png"
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/4/i1.png",
+          "imgSize": 150,
+          "title": "Identificación",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>En este registro se identifica el contribuyente según su persona:</h5><h5 class = 'mB-05 fw-4 tCenter'>Persona natural: se identifica con su nombre y apellidos completos, literalmente como aparece en la cédula o documento de identidad (para los menores será la tarjeta de identidad); menores de siete años el NUIP que es el número que aparece en el registro civil de nacimiento; para los no residentes la cédula de extranjería o el pasaporte.</h5><h5 class = 'mB-05 fw-4 tCenter'>Persona jurídica: para las personas jurídicas se identifica con su razón social, la sigla o descripción comercial, literal como aparece en el certificado de la Cámara de Comercio, y con el número NIT que le asigna la DIAN al momento de la inscripción.</h5>"
+        },
+        {
+          "info": 2,
+          "img": "img/4/i2.png",
+          "imgSize": 150,
+          "title": "Ubicación",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Es el lugar de domicilio fiscal en el cual está ubicado el asentamiento principal de las actividades del contribuyente.</h5><h5 class = 'mB-025 fw-4 tCenter'>- Para personas naturales será la dirección de residencia o habitación.</h5><h5 class = 'mB-025 fw-4 tCenter'>- Para los contribuyentes con establecimientos en los cuales se desarrollan las actividades, será el lugar en el cual se toman las decisiones del negocio o actividad.</h5><h5 class = 'mB-025 fw-4 tCenter'>- Para las personas jurídicas será el lugar de toma de decisiones administrativas el centro principal de decisión, no necesariamente tendrá que ser el centro principal de operación, debe ser donde se encuentre la administración, es decir, la gerencia y todo el aparato de administración incluida la contabilidad.</h5>"
+        },
+        {
+          "info": 3,
+          "img": "img/4/i3.png",
+          "imgSize": 150,
+          "title": "Clasificación",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Es el módulo en el que se clasifica a cada contribuyente por actividades, se realiza por código de actividad desempeñada y fecha de inicio de operaciones.</h5><h5 class = 'mB-05 fw-4 tCenter'>Las actividades se clasifican en: </h5><h5 class = 'mB-025 fw-4 tCenter'>- Principales </h5><h5 class = 'mB-05 fw-4 tCenter'>- Secundarias</h5><h5 class = 'mB-05 fw-4 tCenter'>Hay lugar a relacionar una actividad principal y tres secundarias, y se ubican de acuerdo a la participación en la generación de ingresos, también de acuerdo al desarrollo del objeto social.</h5>"
+        }
+      ]
+    }
+  },
+
+  "page5": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "2. ¿Qué se entiende por Registro Único</br> Tributario (RUT)?",
+    "text": "Sigue con detalle la conversación de estas dos personas que nos traen una explicación breve sobre el RUT.",
+    "multimedia": {
+      "messages": [
+        {
+          "text": "Hola Carlos",
+          "side": "messageRight"
+        },
+        {
+          "text": "¿cómo te encuentras?</br>Espero bien.",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "Hola Ana, me encuentro muy bien gracias por preguntar.",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "Carlos, te escribo porque tengo una inquietud y yo sé que eres experto en estos temas ",
+          "side": "messageRight"
+        },
+        {
+          "text": "¿cómo se clasifican las responsabilidades tributarias?",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "Con respecto a la pregunta que me haces, la respuesta es muy simple.",
+          "side": "messageLeft"
+        },
+        {
+          "text": "Las responsabilidades tributarias se clasifican en principales y secundarias.",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "Mmm y cuéntame",
+          "side": "messageRight"
+        },
+        {
+          "text": "¿hay más responsabilidades que yo debería saber?",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "¡Claro! También se clasifican a las que haya lugar como:",
+          "side": "messageLeft"
+        },
+        {
+          "text": "Declarante de renta</br>Régimen ordinario o régimen especial</br>Régimen simplificado o Régimen común</br>Agente de retención en la fuente</br>Agente de retención de IVA</br>Usuario aduanero</br>Informante de exógena</br>Entre otros",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "¡Súper! Me queda muy clara la información, pero me surge otra duda:",
+          "side": "messageRight"
+        },
+        {
+          "text": "si el usuario es aduanero, ¿cómo sería el caso?",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "¡Buena pregunta!",
+          "side": "messageLeft"
+        },
+        {
+          "text": "Cuando se es usuario aduanero, se especifica si es importador, exportador o ambos, si es operador logístico, usuario plan vallejo y a qué modalidad pertenece, entre otros.",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "¿Y ese documento debe ir firmado por alguien?",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "¡Claro! Debe ir firmado por el contribuyente o el representante legal.",
+          "side": "messageLeft"
+        },
+        {
+          "text": "Se debe anexar en la primera operación con un cliente y en enero de cada año a los clientes se les debe expedir un RUT actualizado, esto quiere decir, con fecha o condiciones nuevas si las hay.",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "¿Qué otras recomendaciones debo tener en cuenta?",
+          "side": "messageRight separator"
+        },
+        {
+          "text": "Ten presente que la no actualización del RUT dentro del mes siguiente al cambio de condiciones dará lugar a sanciones, estas son una UVT (Unidad de Valor Tributario) diaria por cada día que se tarde en actualizar el cambio de condiciones por: identificación, ubicación o clasificación.",
+          "side": "messageLeft separator"
+        },
+        {
+          "text": "Lo tendré muy presente, muchas gracias Carlos por compartir esa información ",
+          "side": "messageRight"
+        }
+      ]
+    }
+  },
+
+  "page6": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "title": "3. Régimen sancionatorio",
+    "text": "",
+    "text2": "Las infracciones y sanciones que una persona natural o jurídica puede llegar a tener se clasifican en:",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual.",
+      "posY": 60,
+      "posX": 0,
+      "size": 300
+    },
+    "instruction2": {
+      "type": "print",
+      "link": "docs/anexo_1_decreto_390_2016.pdf",
+      "text": "Descarga el siguiente documento donde encontrarás el Decreto 390 de 2016 en su Art. 512 con el contenido complementario al régimen sancionatorio.",
+      "posY": 450,
+      "posX": 46,
+      "size": 410
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/regimen_sancionatorio.mp4"
+    }
+  },
+
+  "page7": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "4. Corrección de las declaraciones tributarias",
+    "text": "",
+    "multimedia": {
+      "audio": {
+        "src": "audio/declaraciones.mp3",
+        "autoPlay": true
+      },
+      "subtitles": {
+        "3": "Los contribuyentes pueden corregir las declaraciones",
+        "6": "que den un mayor valor de impuesto por pagar o disminuyan el saldo a favor.",
+        "10": "Si es voluntario este procedimiento, la sanción será el 10% de la diferencia entre los dos impuestos",
+        "16": "o el menor saldo a favor; el saldo a favor declarado inicialmente comparado con el nuevo."
+      },
+      "movePage": false,
+      "moveTime": 0,
+      "layers": [
+        [
+          {
+            "label": "Los contribuyentes pueden</br> corregir las declaraciones",
+            "labelSide": "bottom",
+            "icon": "img/7/i1.png",
+            "time": 3,
+            "size": 200,
+            "position": {
+              "yPosition": 140,
+              "xPosition": 0
+            }
+          },
+          {
+            "icon": "img/7/l1.png",
+            "time": 4,
+            "size": 170,
+            "position": {
+              "yPosition": -16,
+              "xPosition": 65
+            }
+          },
+          {
+            "label": "un mayor valor de</br> impuesto por pagar",
+            "labelSide": "bottom",
+            "icon": "img/7/i2.png",
+            "time": 6,
+            "size": 195,
+            "position": {
+              "yPosition": -18,
+              "xPosition": 170
+            }
+          },
+          {
+            "icon": "img/7/l2.png",
+            "time": 7,
+            "size": 230,
+            "position": {
+              "yPosition": -49,
+              "xPosition": 230
+            }
+          },
+          {
+            "label": "disminuyan el</br> saldo a favor.",
+            "labelSide": "bottom",
+            "icon": "img/7/i3.png",
+            "time": 8,
+            "size": 130,
+            "position": {
+              "yPosition": -5,
+              "xPosition": 405
+            }
+          },
+          {
+            "label": "Si es voluntario este</br> procedimiento",
+            "labelSide": "bottom",
+            "icon": "img/7/i4.png",
+            "time": 10,
+            "size": 200,
+            "position": {
+              "yPosition": -20,
+              "xPosition": 615
+            }
+          },
+          {
+            "icon": "img/7/l3.png",
+            "time": 11,
+            "size": 46,
+            "position": {
+              "yPosition": 5,
+              "xPosition": 820
+            }
+          },
+          {
+            "label": "la sanción será el 10%</br> de la diferencia",
+            "labelSide": "bottom",
+            "time": 12,
+            "size": 190,
+            "icon": "img/7/i5.png",
+            "position": {
+              "yPosition": 175,
+              "xPosition": 730
+            }
+          },
+          {
+            "icon": "img/7/l4.png",
+            "time": 13,
+            "size": 170,
+            "position": {
+              "yPosition": 152,
+              "xPosition": 653
+            }
+          },
+          {
+            "label": "entre los dos impuestos o</br> el menor saldo a favor",
+            "labelSide": "bottom",
+            "time": 15,
+            "size": 110,
+            "icon": "img/7/i6.png",
+            "position": {
+              "yPosition": 190,
+              "xPosition": 542
+            }
+          },
+          {
+            "icon": "img/7/l5.png",
+            "time": 16,
+            "size": 219,
+            "position": {
+              "yPosition": 156,
+              "xPosition": 436
+            }
+          },
+          {
+            "label": "el saldo a favor declarado</br> inicialmente comparado con el nuevo.",
+            "labelSide": "bottom",
+            "time": 18,
+            "size": 130,
+            "icon": "img/7/i7.png",
+            "position": {
+              "yPosition": 164,
+              "xPosition": 296
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "page8": {
+    "type": "pageCourse",
+    "nameUnit": "unit3",
+    "title": "Recuerda lo aprendido",
+    "text": "Para comprobar qué tanto has comprendido hasta el momento, te invitamos a realizar el siguiente ejercicio:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Lleva las palabras a los espacios donde consideres que deben de ir, no te preocupes si no sabes la respuesta, cuando lo hagas podrás descubrirlo.",
+      "posY": 470,
+      "posX": 20,
+      "size": 450
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "declaraciones"
+        },
+        {
+          "id": 2,
+          "text": "RUT"
+        },
+        {
+          "id": 3,
+          "text": "relación"
+        },
+        {
+          "id": 4,
+          "text": "tributarias"
+        },
+        {
+          "id": 5,
+          "text": "corregir"
+        },
+        {
+          "id": 6,
+          "text": "obligaciones"
+        },
+        {
+          "id": 7,
+          "text": "especiales."
+        },
+        {
+          "id": 8,
+          "text": "carácter"
+        },
+        {
+          "id": 9,
+          "text": "tributario"
+        },
+        {
+          "id": 10,
+          "text": "infracciones"
+        },
+        {
+          "id": 11,
+          "text": "fiscales"
+        }
+      ],
+      "dropZone": {
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "El procedimiento",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "es el conjunto de normas que regulan la",
+                "posY": 30,
+                "posX": 240
+              },
+              {
+                "key": 3,
+                "text": "entre el sujeto activo y",
+                "posY": 30,
+                "posX": 590
+              },
+              {
+                "key": 4,
+                "text": "el sujeto pasivo en el desarrollo de las actuaciones fiscales.",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 145,
+                "size": 85,
+                "type": "tributario"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 495,
+                "size": 85,
+                "type": "relación"
+              }
+            ]
+          },
+          {
+            "key": 2,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Las actuaciones",
+                "posY": 30,
+                "posX": 30
+              },
+              {
+                "key": 2,
+                "text": "son los actos de",
+                "posY": 30,
+                "posX": 240
+              },
+              {
+                "key": 3,
+                "text": "formal y sustancial (procedimental)",
+                "posY": 30,
+                "posX": 443
+              },
+              {
+                "key": 4,
+                "text": "entre el ciudadano y el Estado.",
+                "posY": 70,
+                "posX": 30
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 139,
+                "size": 85,
+                "type": "fiscales"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 345,
+                "size": 85,
+                "type": "carácter"
+              }
+            ]
+          },
+          {
+            "key": 3,
+            "lines": [
+              {
+                "key": 1,
+                "text": "El",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "sirve para identificar la actividad económica del sujeto y señala las",
+                "posY": 30,
+                "posX": 130
+              },
+              {
+                "key": 3,
+                "text": "que",
+                "posY": 30,
+                "posX": 695
+              },
+              {
+                "key": 4,
+                "text": "tiene frente al Estado Colombiano. El RUT está dividido en: identificación, ubicación y clasificación.",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 53,
+                "size": 64,
+                "type": "RUT"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 561,
+                "size": 120,
+                "type": "obligaciones"
+              }
+            ]
+          },
+          {
+            "key": 4,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Las responsabilidades",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "se clasifican en principales y secundarias.",
+                "posY": 30,
+                "posX": 297
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 182,
+                "size": 100,
+                "type": "tributarias"
+              }
+            ]
+          },
+          {
+            "key": 5,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Las",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "y sanciones que una persona natural o jurídica puede llegar a tener se clasifican",
+                "posY": 30,
+                "posX": 170
+              },
+              {
+                "key": 3,
+                "text": "en: Generales, Comunes a todos los operadores de comercio exterior e Infracciones",
+                "posY": 70,
+                "posX": 40
+              },
+              {
+                "key": 4,
+                "text": "Se pueden categorizar como leve, grave y gravísima.",
+                "posY": 110,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 59,
+                "size": 100,
+                "type": "infracciones"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 57,
+                "posX": 577,
+                "size": 100,
+                "type": "especiales."
+              }
+            ]
+          },
+          {
+            "key": 6,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Los contribuyentes pueden",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "las",
+                "posY": 30,
+                "posX": 336
+              },
+              {
+                "key": 3,
+                "text": "que den un mayor valor de",
+                "posY": 30,
+                "posX": 477
+              },
+              {
+                "key": 4,
+                "text": "impuesto por pagar o disminuyan el saldo a favor.",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 212,
+                "size": 110,
+                "type": "corregir"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 353,
+                "size": 110,
+                "type": "declaraciones"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/check.png",
+          "imgSize": 150,
+          "title": "¡Muy bien!",
+          "text": "<p>Ahora ya conoces el concepto de persona jurídica y las responsabilidades tributarias que adquiere cada una. </p>"
+        }
+      ]
+    }
+  },
+
+  "page9": {
+    "type": "pageCourse",
+    "nameUnit": "unit4",
+    "title": "4. Corrección de las declaraciones tributarias",
+    "text": "Sin perjuicio de lo dispuesto en los artículos 588, 709 y 713 del Estatuto Tributario Nacional, los contribuyentes, responsables o agentes retenedores, podrán corregir sus declaraciones tributarias dentro de los dos años siguientes al vencimiento del plazo para declarar y antes de que se les haya notificado el requerimiento especial o pliego de cargos, en relación con la declaración tributaria que se corrige, y se liquide la correspondiente sanción por corrección.",
+    "text2": "",
+    "instruction": {
+      "type": "print",
+      "link": "docs/Anexo_2_Estatuto_Tributo_Nacional.pdf",
+      "text": "Si quieres ahondar en la normatividad, descarga el siguiente documento donde encontrarás los artículos 588, 709 y 713 del Estatuto Tributario Nacional.",
+      "posY": 460,
+      "posX": 20,
+      "size": 410
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "Ejemplo de corrección con aumento de impuesto",
+          "numBtn": 1,
+          "img": "img/9/i1.png"
+        },
+        {
+          "text": "Ejemplo con disminución de saldo a favor ",
+          "numBtn": 2,
+          "img": "img/9/i2.png"
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/9/i1.png",
+          "imgSize": 150,
+          "title": "Ejemplo de corrección con aumento de impuesto",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'></h5>",
+          "imgExample": "img/9/img-i1.png"
+        },
+        {
+          "info": 2,
+          "img": "img/9/i1.png",
+          "imgSize": 150,
+          "title": "Ejemplo con disminución de saldo a favor ",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Aquí se genera otra sanción correspondiente a los intereses de mora de la presentación hasta el día antes de pago.</h5>",
+          "imgExample": "img/9/img-i2.png"
+        }
+      ]
+    }
+  },
+
+  "page10": {
+    "type": "pageCourse",
+    "title": "4. Corrección de las declaraciones tributarias",
+    "text": "También se da el caso contrario, que el contribuyente necesite disminuir el impuesto a pagar o aumentar el saldo a favor.",
+    "text2": "<p class='mB-1'>Únicamente se puede efectuar esta corrección en el año inmediatamente siguiente a la fecha de presentación de la declaración, solo un año, si se hace después ya no es procedente.</p><p class=''>No hay que efectuar proyecto de corrección, solo se diligencia el formulario con los nuevos datos aumentando el saldo a favor o disminuyendo el valor a pagar. Bien lo dice el Art. 589 del Estatuto Tributario Nacional.</p>",
+    "boxInfo": {
+      "title": "Artículo 589",
+      "text": "Visualiza el siguiente articulo aquí.",
+      "imgBg": "img/video-3.png"
+    },
+    "instruction": {
+      "text": "Haz clic en el botón para conocer este Artículo.",
+      "posY": 470,
+      "posX": 45,
+      "size": 300
+    },
+    "modal": {
+      "info": 1,
+      "img": "img/10/art-589.png",
+      "imgSize": 150,
+      "title": "Artículo 589",
+      "text": "<h5 class = 'mB-05 fw-4 tCenter'>Correcciones que disminuyan el valor a pagar o aumenten el saldo a favor para corregir las declaraciones tributarias, disminuyendo el valor a pagar o aumentando el saldo a favor, se deberá presentar la respectiva declaración por el medio al cual se encuentra obligado el contribuyente, dentro del año siguiente al vencimiento del término para presentar la declaración.</h5>",
+      "closedModal": true
+    }
+  },
+
+  "page11": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "4. Corrección de las declaraciones tributarias",
+    "text": "Existen otras sanciones que debes tener en cuenta, estas son: por evasión en IVA y por retención en la fuente e impoconsumo, para estos casos se tienen las siguientes penalidades (aplica para contribuyentes evasores e indisciplinados Art. 640-1). Observemos con atención qué dice el Artículo.",
+    "instruction": {
+      "text": "Haz clic en los números en orden consecutivo para conocer la información.",
+      "posY": 300,
+      "posX": 400,
+      "size": 230
+    },
+    "multimediaCircular": [
+      {
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "El agente retenedor o el responsable del impuesto sobre las ventas que, mediante fraude, disminuya el saldo a pagar por concepto de retenciones o impuestos o aumente el saldo a favor de sus declaraciones tributarias en cuantía igual o superior a 4.100 UVT, incurrirá en inhabilidad para ejercer el comercio, profesión u oficio por un término de uno a cinco años y como pena accesoria en multa de 410 a 2.000 UVT.",
+          "posGlobe": {
+            "posY": 5,
+            "posX": 380,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 280,
+          "left": 360
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "En igual sanción incurrirá quien estando obligado a presentar declaración por impuesto sobre las ventas o retención en la fuente, no lo hiciere valiéndose de los mismos medios, siempre que el impuesto determinado por la Administración sea igual o superior a la cuantía antes señalada.",
+          "posGlobe": {
+            "posY": 230,
+            "posX": 410,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 240,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Si la utilización de documentos falsos o el empleo de maniobras fraudulentas o engañosas constituyen delito por sí solas, o se realizan en concurso con otros hechos punibles, se aplicará la pena prevista en el Código Penal y la que se prevé en el inciso primero de este artículo siempre y cuando no implique lo anterior la imposición doble de una misma pena.",
+          "posGlobe": {
+            "posY": 187,
+            "posX": 230,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "",
+          "text": "Cumplido el término de la sanción, el infractor quedará rehabilitado inmediatamente.",
+          "posGlobe": {
+            "posY": 38,
+            "posX": 220,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      }
+    ]
+  },
+
+  "page12": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "5. Sanción por extemporaneidad",
+    "text": "",
+    "text2": "¿A qué hace refencia la sanción por extemporaneidad? Si no lo sabes, acá te lo contamos",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual.",
+      "posY": 60,
+      "posX": 0,
+      "size": 300
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/sancion_extemporaneidad.mp4"
+    }
+  },
+
+  "page13": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "nameUnit": "unit5",
+    "title": "5. Sanción por extemporaneidad",
+    "text": "Existen dos tipos de sanciones extemporáneas y otras recomendaciones que debes tener en cuenta.",
+    "text2": "",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Lleva cada botón en orden consecutivo hacia el centro para que conozcas lo anteriormente mencionado.",
+      "posY": 460,
+      "posX": 20,
+      "size": 310
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "",
+          "numBtn": 1,
+          "img": "img/13/i1.png",
+          "color": "#93C01F"
+        },
+        {
+          "text": "",
+          "numBtn": 2,
+          "img": "img/13/i2.png",
+          "color": "#F15A24"
+        },
+        {
+          "text": "",
+          "numBtn": 3,
+          "img": "img/13/i3.png",
+          "color": "#00B6D2"
+        },
+        {
+          "text": "",
+          "numBtn": 4,
+          "img": "img/13/i4.png",
+          "color": "#95989A"
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/13/i1.png",
+          "imgSize": 150,
+          "title": "Sanción extemporánea voluntaria",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Si la declaración tributaria de renta generó un impuesto a cargo de 10.000.000, y en caso tal que se haya pasado en la fecha estipulada de pago, el contribuyente puede asumir y tomar la iniciativa de pagar la sanción por extemporaneidad en el impuesto a cargo, quiere decir que cuando el contribuyente toma la iniciativa de presentar la declaración, solo deberá pagar un 5% adicional del impuesto a cargo por cada mes de retraso o fracción de mes, así como lo dijimos en la página anterior, un día de mora equivale a un mes. El límite de la sanción será hasta el 100% del impuesto, o sea que el tope en nuestro ejemplo será de 10.000.000 como máximo.</h5>"
+        },
+        {
+          "info": 2,
+          "img": "img/13/i2.png",
+          "imgSize": 150,
+          "title": "Es decir, para el ejemplo mencionado la fórmula se sacaría así:",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Impuesto a cargo 10.000.000 x 5% = 500.000 por cada mes que se retrase en presentar la declaración, si se demoró 24 meses en pagar, la sanción matemática sería de 12.000.000. Pero en el ámbito fiscal solo debe pagar hasta 10.000.000 (que es el 100% de lo que se está tributando).</h5>"
+        },
+        {
+          "info": 3,
+          "img": "img/13/i3.png",
+          "imgSize": 150,
+          "title": "Sanción extemporánea por requerimiento de la DIAN",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Si la presentación de la declaración de renta se hace por requerimiento de la DIAN, la sanción para el mismo ejemplo será del 10% y no del 5% (si se hubiera hecho voluntariamente), miremos el resultado: la DIAN lo requirió 26 meses después.</h5><h5 class = 'mB-05 fw-4 tCenter'>Impuesto a cargo: 10.000.000 X 10% x 26 meses= 26.000.000 </h5><h5 class = 'mB-05 fw-4 tCenter'>¿Se debe pagar todo el monto, es decir, los 26.000.000? Descúbrelo en el siguiente numeral.</h5>"
+        },
+        {
+          "info": 4,
+          "img": "img/13/i4.png",
+          "imgSize": 150,
+          "title": "Cuando la sanción es motivada por resolución de la DIAN, el límite de la sanción será hasta el 200% ",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>(Art. 642 Estatuto Tributario Nacional) o sea que para nuestro ejemplo, la sanción será de 20.000.000 como máximo, es decir, que no tiene que pagar los 26.000.000 sino el tope que son 20.000.000 para este caso.</h5><h5 class = 'mB-05 fw-4 tCenter'>Esta sanción no exime al contribuyente de los intereses de mora, estos son otra sanción accesoria de los impuestos dejados de pagar. </h5>"
+        }
+      ]
+    }
+  },
+
+  "page14": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "6. Interesés de mora ",
+    "text": "El interés de mora conforma la tasa máxima de usura, su liquidación es mensual y se aplica a la base impositiva por pagar, pero solo a los valores netos por pagar. Se excluye: la sanción y los intereses moratorios. De hecho, los intereses son una sanción, entonces sanción no aplica sobre sanción.",
+    "instruction": {
+      "text": "Haz clic en los números en orden consecutivo para conocer la información.",
+      "posY": 300,
+      "posX": 400,
+      "size": 230
+    },
+    "multimediaCircular": [
+      {
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "Ejemplo",
+          "text": "",
+          "img": "img/14/table-1.png",
+          "posGlobe": {
+            "posY": -5,
+            "posX": 380,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "triang-izq fadeInRight"
+        }
+      },
+      {
+        "pos": {
+          "top": 280,
+          "left": 360
+        },
+        "itemInfo": {
+          "title": "Tasa de interés de mora año 2018",
+          "text": "",
+          "img": "img/14/table-2.png",
+          "posGlobe": {
+            "posY": -75,
+            "posX": 187,
+            "size": 404
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "triang-down fadeInDown"
+        }
+      },
+      {
+        "pos": {
+          "top": 240,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "Tasa de interés de mora año 2018",
+          "text": "Se toma el número de días con la tasa de cada mes, hasta completar la totalidad de días de mora.</br></br>Si la mora fue de 150 días, entonces se toman los días calendarios desde la fecha de presentación hasta un día antes del pago. Para este caso, desde enero 01 hasta mayo 30 para un total de 150 días (porque el 31 de mayo paga).</br></br>Enero  0.2904 ó 29.04%/365 días =0.079561664/100* capital 7.500.000 *interés diario (número de días del mes) 31 días= 184.980</br>Febrero 0.2952/365= 0,000808767 * 7.500.000*28 días= 169.841</br>Marzo    0.2902/365= 0,000795068 * 7.500.000*31 días= 184.853</br>Abril       0.2872/365= 0,000786849 * 7.500.000*30 días= 177.041</br>Mayo     0.2866/365= 0,000785205 * 7.500.000*30 días= 176.671</br>893.386 (sin embargo se aproxima a 893.000)</br></br>Si paga el 31 de mayo, entonces está en mora hasta el día anterior, o sea hasta el 30 de mayo, por tanto el total de días de mora son 150. La cifra resultante se aproxima al mil más cercano de 500 hacia arriba. Es decir, 10.500 se aproxima a 11.000, 10.499 se aproxima a 10.000.",
+          "img": "",
+          "posGlobe": {
+            "posY": 140,
+            "posX": 152,
+            "size": 490
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "triang-der fadeInLeft"
+        }
+      },
+      {
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "Entonces el valor total a pagar será:",
+          "text": "<table class='tg mB-1'><tr><td class='tg-left'>Impuesto</td><td class='tg-right'>7.500.000</td></tr><tr><td class='tg-left'>Sanción</td><td class='tg-right'>500.000</td></tr><tr><td class='tg-left'>Interés de mora</td><td class='tg-right'>893.000</td></tr><tr><td class='tg-left'>Total a apagar</td><td class='tg-right'>8.893.000</td></tr></table>En los pagos realizados a la DIAN, se aplica primero la deuda a la sanción, luego a los intereses de mora y el saldo restante a impuestos.",
+          "img": "",
+          "posGlobe": {
+            "posY": -38,
+            "posX": 124,
+            "size": 510
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "triang-der fadeInLeft"
+        }
+      }
+    ]
+  },
+
+  "page15": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "nameUnit": "unit6",
+    "title": "Recuerda lo que aprendiste",
+    "text": "En este momento, es importante que repases los conceptos que te hemos compartido, por ta motivo, desarrolla la siguiente actividad.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en los botones laterales para conocer el contenido.",
+      "posY": 485,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "title": "",
+        "text": "Los contribuyentes, responsables o agentes retenedores, podrán corregir sus declaraciones tributarias dentro de los dos años siguientes al vencimiento del plazo para declarar y antes de que se les haya notificado el requerimiento especial o pliego de cargos.",
+        "img": "img/15/img-1.png"
+      },
+      {
+        "id": 2,
+        "title": "",
+        "text": "En todos los casos de corrección, presentación extemporánea, que se requiera aplicar sanción, esta no podrá ser inferior a 10 UVT (Unidad de Valor Tributario), para el año 2019 es de $332.000 como sanción mínima.",
+        "img": "img/15/img-2.png"
+      },
+      {
+        "id": 3,
+        "title": "",
+        "text": "Existen otras sanciones que debes tener en cuenta, estas son: por evasión en IVA y por retención en la fuente e impoconsumo.",
+        "img": "img/15/img-3.png"
+      },
+      {
+        "id": 4,
+        "title": "",
+        "text": "La sanción por extemporaneidad hace referencia a la no presentación oportuna de una declaración tributaria.",
+        "img": "img/15/img-4.png"
+      },
+      {
+        "id": 5,
+        "title": "",
+        "text": "Existen dos tipos de sanciones extemporáneas: voluntaria y por requerimiento de la DIAN.",
+        "img": "img/15/img-5.png"
+      },
+      {
+        "id": 6,
+        "title": "",
+        "text": "El interés de mora conforma la tasa máxima de usura, su liquidación es mensual y se aplica a la base impositiva por pagar, pero solo a los valores netos por pagar.",
+        "img": "img/15/img-6.png"
+      }
+    ]
+  },
+
+  "page16": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "title": "7. Sanción por inexactitud",
+    "text": "En este momento, es importante que repases los conceptos que te hemos compartido, por ta motivo, desarrolla la siguiente actividad.",
+    "text2": "",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Visualiza el siguiente video para conocer la información sobre este tipo sanción.",
+      "posY": -40,
+      "posX": 0,
+      "size": 300
+    },
+    "instruction2": {
+      "type": "print",
+      "link": "docs/anexo_3_estatuto_tributo_nacional.pdf",
+      "text": "Concoe el Art. 647 del Estatuto Tributario Naconal, donde está la reglamanetación de la sanción por inexactitud.",
+      "posY": 390,
+      "posX": 46,
+      "size": 410
+    },
+    "instruction3": {
+      "type": "print",
+      "link": "docs/anexo_4_ejemplo_sancion_inexactitud.pdf",
+      "text": "Descarga el siguiente documento donde encontrarás un ejemplo aplicando la sanción por inexactitud.",
+      "posY": 460,
+      "posX": 46,
+      "size": 410
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/sancion_inexactitud.mp4"
+    }
+  },
+
+  "page17": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "8. Impuestos penalizables",
+    "text": "Es importante resaltar en este aspecto porque serán sancionados los contribuyentes que no realicen correctamente la retención, por liquidar mal, por no recaudar impuestos (IVA consumo) o retenciones, que se liquiden mal en las facturas o no se cobren, se efectúe mal una retención o no se efectúe. Incurrirá en las sanciones establecidas en el Art. 402 del Código Penal. ",
+    "text2": "No es la DIAN quien aplica estas sanciones, se pone la denuncia ante la Fiscalía y es este ente la que inicia el trámite penal. Por tal motivo, haga bien los procedimientos y evítese en un futuro problemas jurídicos y penales. </br></br>Para conocer los impuestos penalizables en los que puedes incurrir, te invitamos a descargar el sigiente documento donde se encuentra el Artículo 402 del Código Penal.",
+    "boxInfo": {
+      "title": "",
+      "text": "",
+      "imgBg": "img/video-4.png"
+    },
+    "instruction": {
+      "type": "print",
+      "link": "docs/anexo_5_articulo_402_codigo_penal.pdf",
+      "text": "Para conocer los impuestos penalizables en los que puedes incurrir, te invitamos a descargar el sigiente documento donde se encuentra el Artículo 402 del Código Penal.",
+      "posY": 460,
+      "posX": 46,
+      "size": 410
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/sancion_inexactitud.mp4"
+    }
+  },
+
+  "page18": {
+    "type": "endCourse",
+    "endUnit": true,
+    "endCourse": true,
+    "type": "endCourse",
+    "nameUnit": "unit4",
+    "title": "Impuesto corporativo",
+    "subTitle": "sobre la renta y complementarios",
+    "module": "Módulo 3",
+    "text": "En este módulo pudiste aprender sobre los procedimientos tributarios y las sanciones. Además, este contenido ha sido apoyado a través de la siguiente bibliografía con las fuentes tomadas del 31 de julio de 2018:",
+    "text2": "- Impuesto de renta explicado LEGIS</br>- Estatuto Tributario LEGIS</br>- Régimen de impuesto de renta y complementarios LEGIS",
+    "logoCourse": "img/logo.png",
+    "buttonStart": "Finalizar",
+    "boxInfo": {
+      "title": "¡Has finalizado exitosamente esta formación!",
+      "text": "Te invitamos a practicar día a día todos los procedimientos y temas vistos en esta formación para no incurrir en problemas legales. Continúa con la evaluación de conocimientos. ¡Éxitos!",
+      "imgBg": "img/welcome-2.png"
+    }
+  },
+
+  "backCover": {
+    "type": "endPage",
+    "title": "¡Has finalizado este módulo!",
+    "text": "Cierra la ventana para continuar.",
+    "img": "img/like.png"
+  },
+
+  "finishUnit": {
+    "title": "Has finalizado este tema",
+    "text": "A continuación haz clic en el ícono del menú para volver al principal y avanzar en un nuevo tema.",
+    "img": "img/check.png"
+  }
+}
